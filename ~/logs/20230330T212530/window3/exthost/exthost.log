@@ -1,0 +1,271 @@
+2023-03-30 21:27:30.640 [info] Extension host with pid 13885 started
+2023-03-30 21:27:31.075 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onLanguage:code-runner-output'
+2023-03-30 21:27:31.146 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-03-30 21:27:31.152 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-03-30 21:27:31.155 [info] ExtensionService#_doActivateExtension AgileNix.Coderslang, startup: true, activationEvent: '*'
+2023-03-30 21:27:32.142 [info] ExtensionService#_doActivateExtension Atishay-Jain.All-Autocomplete, startup: true, activationEvent: '*'
+2023-03-30 21:27:32.147 [info] ExtensionService#_doActivateExtension Blackboxapp.blackbox, startup: true, activationEvent: '*'
+2023-03-30 21:27:32.314 [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+2023-03-30 21:27:32.317 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2023-03-30 21:27:32.327 [info] ExtensionService#_doActivateExtension HookyQR.beautify, startup: true, activationEvent: '*'
+2023-03-30 21:27:32.390 [info] ExtensionService#_doActivateExtension michelemelluso.code-beautifier, startup: true, activationEvent: '*'
+2023-03-30 21:27:32.437 [info] ExtensionService#_doActivateExtension slevesque.vscode-multiclip, startup: true, activationEvent: '*'
+2023-03-30 21:27:32.440 [info] ExtensionService#_doActivateExtension wayou.vscode-todo-highlight, startup: true, activationEvent: '*'
+2023-03-30 21:27:32.446 [info] ExtensionService#_doActivateExtension zhengrenzhe.nyan-cat, startup: true, activationEvent: '*'
+2023-03-30 21:27:32.454 [info] Extension host terminating: parent process 13884 does not exist anymore: kill ESRCH (code: ESRCH) (errno: -3)
+2023-03-30 21:27:32.456 [info] Extension host with pid 13885 exiting with code 0
+2023-03-30 21:27:32.462 [info] Eager extensions activated
+2023-03-30 21:27:32.463 [error] Activating extension vscode.debug-auto-launch failed due to an error:
+2023-03-30 21:27:32.463 [error] Canceled: Canceled
+    at new a (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88793)
+    at c.O (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11260)
+    at Proxy.V.<computed>.Q.charCodeAt.V.<computed> (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8550)
+    at f.Y (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11539)
+    at Object.actualActivateExtension (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:8591)
+    at f.n (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6831)
+    at f.m (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6792)
+    at f.l (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6249)
+    at new f (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6176)
+    at D.k (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:5656)
+    at D.j (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:5611)
+    at /Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4445
+    at Array.map (<anonymous>)
+    at D.h (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4433)
+    at D.activateById (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4345)
+    at f.S (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:10068)
+    at f.eb (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:15044)
+    at /Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:15733
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-03-30 21:27:32.463 [error] Activating extension vscode.merge-conflict failed due to an error:
+2023-03-30 21:27:32.463 [error] Canceled: Canceled
+    at new a (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88793)
+    at c.O (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11260)
+    at Proxy.V.<computed>.Q.charCodeAt.V.<computed> (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8550)
+    at f.Y (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11539)
+    at Object.actualActivateExtension (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:8591)
+    at f.n (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6831)
+    at f.m (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6792)
+    at f.l (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6249)
+    at new f (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6176)
+    at D.k (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:5656)
+    at D.j (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:5611)
+    at /Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4445
+    at Array.map (<anonymous>)
+    at D.h (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4433)
+    at D.activateById (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4345)
+    at f.S (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:10068)
+    at f.eb (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:15044)
+    at /Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:15733
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-03-30 21:27:32.464 [error] Activating extension dbaeumer.vscode-eslint failed due to an error:
+2023-03-30 21:27:32.464 [error] Canceled: Canceled
+    at new a (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88793)
+    at c.O (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11260)
+    at Proxy.V.<computed>.Q.charCodeAt.V.<computed> (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8550)
+    at f.Y (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11539)
+    at Object.actualActivateExtension (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:8591)
+    at f.n (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6831)
+    at f.m (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6792)
+    at f.l (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6249)
+    at new f (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6176)
+    at D.k (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:5656)
+    at D.j (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:5611)
+    at /Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4445
+    at Array.map (<anonymous>)
+    at D.h (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4433)
+    at D.activateById (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4345)
+    at f.S (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:10068)
+    at f.eb (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:15044)
+    at /Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:15733
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-03-30 21:27:32.464 [error] Activating extension eamodio.gitlens failed due to an error:
+2023-03-30 21:27:32.464 [error] Canceled: Canceled
+    at new a (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88793)
+    at c.O (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11260)
+    at Proxy.V.<computed>.Q.charCodeAt.V.<computed> (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8550)
+    at f.Y (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11539)
+    at Object.actualActivateExtension (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:8591)
+    at f.n (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6831)
+    at f.m (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6792)
+    at f.l (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6249)
+    at new f (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6176)
+    at D.k (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:5656)
+    at D.j (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:5611)
+    at /Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4445
+    at Array.map (<anonymous>)
+    at D.h (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4433)
+    at D.activateById (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4345)
+    at f.S (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:10068)
+    at f.eb (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:15044)
+    at /Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:15733
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-03-30 21:27:32.464 [error] Activating extension vscode.npm failed due to an error:
+2023-03-30 21:27:32.464 [error] Canceled: Canceled
+    at new a (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88793)
+    at c.O (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11260)
+    at Proxy.V.<computed>.Q.charCodeAt.V.<computed> (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8550)
+    at f.Y (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11539)
+    at Object.actualActivateExtension (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:8591)
+    at f.n (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6831)
+    at f.m (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6792)
+    at f.l (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6249)
+    at new f (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6176)
+    at D.k (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:5656)
+    at D.j (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:5611)
+    at D.j (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:5278)
+    at /Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4445
+    at Array.map (<anonymous>)
+    at D.h (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4433)
+    at D.activateById (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4345)
+    at f.S (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:10068)
+    at f.eb (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:15044)
+    at /Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:15733
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-03-30 21:27:32.464 [error] Activating extension monokai.theme-monokai-pro-vscode failed due to an error:
+2023-03-30 21:27:32.464 [error] Canceled: Canceled
+    at new a (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88793)
+    at c.O (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11260)
+    at Proxy.V.<computed>.Q.charCodeAt.V.<computed> (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8550)
+    at f.Y (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11539)
+    at Object.actualActivateExtension (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:8591)
+    at f.n (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6831)
+    at f.m (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6792)
+    at f.l (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6249)
+    at new f (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6176)
+    at D.k (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:5656)
+    at D.j (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:5611)
+    at /Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4445
+    at Array.map (<anonymous>)
+    at D.h (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4433)
+    at D.activateById (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4345)
+    at f.S (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:10068)
+    at f.eb (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:15044)
+    at /Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:15733
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-03-30 21:27:32.465 [error] Activating extension PKief.material-icon-theme failed due to an error:
+2023-03-30 21:27:32.465 [error] Canceled: Canceled
+    at new a (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88793)
+    at c.O (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11260)
+    at Proxy.V.<computed>.Q.charCodeAt.V.<computed> (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8550)
+    at f.Y (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11539)
+    at Object.actualActivateExtension (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:8591)
+    at f.n (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6831)
+    at f.m (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6792)
+    at f.l (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6249)
+    at new f (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6176)
+    at D.k (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:5656)
+    at D.j (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:5611)
+    at /Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4445
+    at Array.map (<anonymous>)
+    at D.h (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4433)
+    at D.activateById (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4345)
+    at f.S (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:10068)
+    at f.eb (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:15044)
+    at /Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:15733
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-03-30 21:27:32.465 [error] Activating extension ritwickdey.LiveServer failed due to an error:
+2023-03-30 21:27:32.465 [error] Canceled: Canceled
+    at new a (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88793)
+    at c.O (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11260)
+    at Proxy.V.<computed>.Q.charCodeAt.V.<computed> (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8550)
+    at f.Y (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11539)
+    at Object.actualActivateExtension (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:8591)
+    at f.n (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6831)
+    at f.m (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6792)
+    at f.l (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6249)
+    at new f (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6176)
+    at D.k (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:5656)
+    at D.j (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:5611)
+    at /Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4445
+    at Array.map (<anonymous>)
+    at D.h (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4433)
+    at D.activateById (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4345)
+    at f.S (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:10068)
+    at f.eb (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:15044)
+    at /Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:15733
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-03-30 21:27:32.465 [error] Activating extension tonybaloney.vscode-pets failed due to an error:
+2023-03-30 21:27:32.465 [error] Canceled: Canceled
+    at new a (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88793)
+    at c.O (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11260)
+    at Proxy.V.<computed>.Q.charCodeAt.V.<computed> (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8550)
+    at f.Y (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11539)
+    at Object.actualActivateExtension (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:8591)
+    at f.n (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6831)
+    at f.m (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6792)
+    at f.l (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6249)
+    at new f (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6176)
+    at D.k (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:5656)
+    at D.j (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:5611)
+    at /Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4445
+    at Array.map (<anonymous>)
+    at D.h (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4433)
+    at D.activateById (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4345)
+    at f.S (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:10068)
+    at f.eb (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:15044)
+    at /Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:15733
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-03-30 21:27:32.465 [error] Activating extension vscode-icons-team.vscode-icons failed due to an error:
+2023-03-30 21:27:32.465 [error] Canceled: Canceled
+    at new a (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88793)
+    at c.O (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11260)
+    at Proxy.V.<computed>.Q.charCodeAt.V.<computed> (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8550)
+    at f.Y (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11539)
+    at Object.actualActivateExtension (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:8591)
+    at f.n (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6831)
+    at f.m (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6792)
+    at f.l (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6249)
+    at new f (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6176)
+    at D.k (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:5656)
+    at D.j (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:5611)
+    at /Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4445
+    at Array.map (<anonymous>)
+    at D.h (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4433)
+    at D.activateById (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4345)
+    at f.S (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:10068)
+    at f.eb (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:15044)
+    at /Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:15733
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-03-30 21:27:32.466 [error] Activating extension zhuangtongfa.material-theme failed due to an error:
+2023-03-30 21:27:32.466 [error] Canceled: Canceled
+    at new a (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88793)
+    at c.O (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11260)
+    at Proxy.V.<computed>.Q.charCodeAt.V.<computed> (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8550)
+    at f.Y (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11539)
+    at Object.actualActivateExtension (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:8591)
+    at f.n (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6831)
+    at f.m (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6792)
+    at f.l (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6249)
+    at new f (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6176)
+    at D.k (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:5656)
+    at D.j (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:5611)
+    at /Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4445
+    at Array.map (<anonymous>)
+    at D.h (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4433)
+    at D.activateById (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:4345)
+    at f.S (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:10068)
+    at f.eb (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:15044)
+    at /Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:15733
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)

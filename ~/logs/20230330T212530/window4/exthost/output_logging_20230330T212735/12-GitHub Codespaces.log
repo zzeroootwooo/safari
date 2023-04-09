@@ -1,0 +1,13 @@
+[Client I] GitHub Codespaces version 1.14.2
+[Client I] isRunningInWeb: "false"
+[Client V] Initializing authentication
+[Authentication I] Did not find existing login session
+[Authentication I] Did not find existing login session
+[API I] Signing out due to unsuccessful sign in attempt
+[Client:extension:e29f I] initializing
+[Client:extension:e29f I] creating LiveShare ConnectionHub, with type: "main thread"
+[Client:extension:e29f I] 1 connections used: > object #0: [object Object]
+[Client:extension:e29f:resolver I] created with protocol "codespaces"
+[RemoteExplorer I] Updating codespace performance info
+[Authentication I] Did not find existing login session
+[API E] listCodespaces error. No response received.

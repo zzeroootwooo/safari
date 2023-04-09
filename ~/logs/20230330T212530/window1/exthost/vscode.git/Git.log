@@ -1,0 +1,38 @@
+2023-03-30 21:25:41.218 [info] Log level: Info
+2023-03-30 21:25:41.443 [info] Validating found git in: "/usr/bin/git"
+2023-03-30 21:25:41.505 [info] Using git "2.30.1 (Apple Git-130)" from "/usr/bin/git"
+2023-03-30 21:27:01.408 [info] Log level: Info
+2023-03-30 21:27:01.415 [info] Validating found git in: "/usr/bin/git"
+2023-03-30 21:27:01.415 [info] Using git "2.30.1 (Apple Git-130)" from "/usr/bin/git"
+2023-03-30 21:27:01.415 [info] > git rev-parse --show-toplevel [1985ms]
+2023-03-30 21:27:01.418 [info] > git rev-parse --git-dir --git-common-dir [201ms]
+2023-03-30 21:27:01.457 [info] Open repository: /Users/katerynahp/Desktop/safari
+2023-03-30 21:27:01.476 [info] > git rev-parse --show-toplevel [11ms]
+2023-03-30 21:27:01.528 [info] > git config --get commit.template [57ms]
+2023-03-30 21:27:01.534 [info] > git rev-parse --show-toplevel [56ms]
+2023-03-30 21:27:01.541 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [22ms]
+2023-03-30 21:27:01.551 [info] > git rev-parse --show-toplevel [12ms]
+2023-03-30 21:27:01.570 [info] > git rev-parse --show-toplevel [8ms]
+2023-03-30 21:27:01.578 [info] > git status -z -uall [31ms]
+2023-03-30 21:27:01.885 [info] > git config --get commit.template [191ms]
+2023-03-30 21:27:01.885 [info] > git rev-parse --show-toplevel [312ms]
+2023-03-30 21:27:01.954 [info] > git rev-parse --show-toplevel [65ms]
+2023-03-30 21:27:01.970 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [46ms]
+2023-03-30 21:27:01.990 [info] > git status -z -uall [20ms]
+2023-03-30 21:27:02.373 [info] > git show --textconv :index.html [26ms]
+2023-03-30 21:27:02.398 [info] > git ls-files --stage -- /Users/katerynahp/Desktop/safari/index.html [44ms]
+2023-03-30 21:27:02.420 [info] > git check-ignore -v -z --stdin [17ms]
+2023-03-30 21:27:02.426 [info] > git cat-file -s fbd60e88509df03f7a5d8267682ab4f3bba585b5 [27ms]
+2023-03-30 21:27:03.904 [info] > git check-ignore -v -z --stdin [14ms]
+2023-03-30 21:27:08.476 [info] > git config --get commit.template [755ms]
+2023-03-30 21:27:08.588 [info] > git show --textconv :js/main.js [27ms]
+2023-03-30 21:27:08.623 [info] > git ls-files --stage -- /Users/katerynahp/Desktop/safari/js/main.js [53ms]
+2023-03-30 21:27:08.719 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [116ms]
+2023-03-30 21:27:08.727 [info] > git cat-file -s ad7629d6b8e55e971c9139895194f9eebfea2bde [11ms]
+2023-03-30 21:27:08.745 [info] > git status -z -uall [19ms]
+2023-03-30 21:27:15.194 [info] > git config --get commit.template [14ms]
+2023-03-30 21:27:15.197 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2023-03-30 21:27:15.214 [info] > git status -z -uall [16ms]
+2023-03-30 21:27:20.251 [info] > git config --get commit.template [9ms]
+2023-03-30 21:27:20.254 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2023-03-30 21:27:20.275 [info] > git status -z -uall [20ms]

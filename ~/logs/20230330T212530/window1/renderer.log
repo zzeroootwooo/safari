@@ -1,0 +1,44 @@
+2023-03-30 21:25:35.032 [warning] [zobo.php-intellisense]: Cannot register 'php.executablePath'. This property is already registered.
+2023-03-30 21:25:35.233 [info] [MehediDracula.php-namespace-resolver]: Menu item references the same command as default and alt-command
+2023-03-30 21:25:35.238 [info] [MehediDracula.php-namespace-resolver]: Menu item references the same command as default and alt-command
+2023-03-30 21:25:35.239 [info] [MehediDracula.php-namespace-resolver]: Menu item references the same command as default and alt-command
+2023-03-30 21:25:35.239 [info] [MehediDracula.php-namespace-resolver]: Menu item references the same command as default and alt-command
+2023-03-30 21:25:35.241 [info] [MehediDracula.php-namespace-resolver]: Menu item references the same command as default and alt-command
+2023-03-30 21:25:35.243 [info] [MehediDracula.php-namespace-resolver]: Menu item references the same command as default and alt-command
+2023-03-30 21:25:35.244 [info] [MehediDracula.php-namespace-resolver]: Menu item references the same command as default and alt-command
+2023-03-30 21:25:38.159 [info] [perf] Render performance baseline is 36ms
+2023-03-30 21:25:48.797 [error] fireEvent is not defined: ReferenceError: fireEvent is not defined
+    at /Users/katerynahp/.vscode/extensions/blackboxapp.blackbox-0.10.53/out/extension.js:2851:5
+    at f.invoke (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2066)
+    at h.fire (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1704)
+    at s.dispose (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:173040)
+    at r.$onDidDisposeWebviewPanel (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:175446)
+    at c.N (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11223)
+    at c.M (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:10941)
+    at c.H (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:10034)
+    at c.G (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:9015)
+    at /Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:7803
+    at f.invoke (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2066)
+    at h.fire (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1704)
+    at p.fire (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14907)
+    at /Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:16556
+    at f.invoke (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2066)
+    at h.fire (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1704)
+    at p.fire (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14907)
+    at MessagePortMain.<anonymous> (/Users/katerynahp/Desktop/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:14682)
+    at MessagePortMain.emit (node:events:526:28)
+    at MessagePortMain.emit (node:domain:475:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364)
+2023-03-30 21:26:50.112 [warning] [zobo.php-intellisense]: Cannot register 'php.executablePath'. This property is already registered.
+2023-03-30 21:26:57.136 [info] [perf] Render performance baseline is 49ms
+2023-03-30 21:26:58.306 [info] [MehediDracula.php-namespace-resolver]: Menu item references the same command as default and alt-command
+2023-03-30 21:26:58.319 [info] [MehediDracula.php-namespace-resolver]: Menu item references the same command as default and alt-command
+2023-03-30 21:26:58.322 [info] [MehediDracula.php-namespace-resolver]: Menu item references the same command as default and alt-command
+2023-03-30 21:26:58.323 [info] [MehediDracula.php-namespace-resolver]: Menu item references the same command as default and alt-command
+2023-03-30 21:26:58.323 [info] [MehediDracula.php-namespace-resolver]: Menu item references the same command as default and alt-command
+2023-03-30 21:26:58.323 [info] [MehediDracula.php-namespace-resolver]: Menu item references the same command as default and alt-command
+2023-03-30 21:26:58.324 [info] [MehediDracula.php-namespace-resolver]: Menu item references the same command as default and alt-command
+2023-03-30 21:27:20.651 [warning] [backup tracker] suspended, ignoring dirty change event file:///Users/katerynahp/Desktop/safari/js/main.js 

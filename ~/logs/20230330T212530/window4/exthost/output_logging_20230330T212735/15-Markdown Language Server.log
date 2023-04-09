@@ -1,0 +1,6 @@
+[Trace 19:34:47.248] VsCodeClientWorkspace: TextDocument.onDidOpen: file:///Users/katerynahp/Desktop/safari/README.md
+[Trace 19:34:47.292] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///Users/katerynahp/Desktop/safari/README.md
+[Trace 19:34:47.295] Server: connection.languages.diagnostics.on: file:///Users/katerynahp/Desktop/safari/README.md
+[Trace 19:34:47.341] Server: connection.languages.diagnostics.on: file:///Users/katerynahp/Desktop/safari/README.md
+[Trace 19:34:47.633] VsCodeClientWorkspace: TextDocument.onDidClose: file:///Users/katerynahp/Desktop/safari/README.md
+[Trace 19:34:47.634] VsCodeClientWorkspace: deleteDocument: file:///Users/katerynahp/Desktop/safari/README.md

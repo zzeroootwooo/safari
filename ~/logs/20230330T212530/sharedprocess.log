@@ -1,0 +1,26 @@
+2023-03-30 21:25:35.149 [info] Deleted from disk blackboxapp.blackbox /Users/katerynahp/.vscode/extensions/blackboxapp.blackbox-0.10.45
+2023-03-30 21:25:35.150 [info] Deleted from disk blackboxapp.blackbox /Users/katerynahp/.vscode/extensions/blackboxapp.blackbox-0.10.51
+2023-03-30 21:25:35.151 [info] Deleted from disk enkia.tokyo-night /Users/katerynahp/.vscode/extensions/enkia.tokyo-night-0.9.8
+2023-03-30 21:25:35.155 [info] Deleted from disk devsense.composer-php-vscode /Users/katerynahp/.vscode/extensions/devsense.composer-php-vscode-1.31.12821
+2023-03-30 21:25:35.155 [info] Deleted from disk devsense.phptools-vscode /Users/katerynahp/.vscode/extensions/devsense.phptools-vscode-1.31.12821-darwin-x64
+2023-03-30 21:25:35.156 [info] Deleted from disk devsense.profiler-php-vscode /Users/katerynahp/.vscode/extensions/devsense.profiler-php-vscode-1.31.12821
+2023-03-30 21:25:35.157 [info] Deleted from disk github.codespaces /Users/katerynahp/.vscode/extensions/github.codespaces-1.14.1
+2023-03-30 21:25:35.158 [info] Deleted from disk github.github-vscode-theme /Users/katerynahp/.vscode/extensions/github.github-vscode-theme-6.3.3
+2023-03-30 21:25:35.159 [info] Deleted from disk glenn2223.live-sass /Users/katerynahp/.vscode/extensions/glenn2223.live-sass-6.0.3
+2023-03-30 21:25:35.161 [info] Deleted from disk ms-python.vscode-pylance /Users/katerynahp/.vscode/extensions/ms-python.vscode-pylance-2023.3.30
+2023-03-30 21:25:35.494 [info] Starting worker process with pid 13729 (type: fileWatcher, window: 1).
+2023-03-30 21:25:36.891 [error] Error: Unable to resolve nonexistent file '/Users/katerynahp/.vscode/extensions/blackboxapp.blackbox-0.10.45'
+    at E.resolve (vscode-file://vscode-app/Users/katerynahp/Desktop/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:37:16117)
+    at async V.y (vscode-file://vscode-app/Users/katerynahp/Desktop/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:91:15985)
+    at async Promise.all (index 8)
+    at async P.C (vscode-file://vscode-app/Users/katerynahp/Desktop/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:62:19602)
+    at async P.m (vscode-file://vscode-app/Users/katerynahp/Desktop/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:62:17302)
+2023-03-30 21:26:48.911 [info] Worker process with pid 13729 terminated normally (type: fileWatcher, window: 1).
+2023-03-30 21:26:49.799 [info] Starting worker process with pid 13764 (type: fileWatcher, window: 1).
+2023-03-30 21:27:21.100 [info] Worker process with pid 13764 terminated normally (type: fileWatcher, window: 1).
+2023-03-30 21:27:29.338 [info] Starting worker process with pid 13886 (type: fileWatcher, window: 3).
+2023-03-30 21:27:31.359 [info] Worker process with pid 13886 terminated normally (type: fileWatcher, window: 3).
+2023-03-30 21:27:36.100 [info] Starting worker process with pid 13890 (type: fileWatcher, window: 4).
+2023-03-30 21:28:17.897 [info] Uninstalling extension from the profile: zhengrenzhe.nyan-cat@0.0.8 vscode-userdata:/Users/katerynahp/.vscode/extensions/extensions.json
+2023-03-30 21:28:18.029 [info] Marked extension as uninstalled zhengrenzhe.nyan-cat-0.0.8
+2023-03-30 21:28:18.598 [info] Successfully uninstalled extension from the profile zhengrenzhe.nyan-cat@0.0.8 vscode-userdata:/Users/katerynahp/.vscode/extensions/extensions.json

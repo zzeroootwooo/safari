@@ -1,0 +1,21 @@
+2023-03-30 21:25:30.790 [info] update#setState idle
+2023-03-30 21:25:32.671 [info] [UtilityProcess id: 1, type: extensionHost, pid: <none>]: creating new...
+2023-03-30 21:25:32.683 [info] [UtilityProcess id: 1, type: extensionHost, pid: 13720]: successfully created
+2023-03-30 21:26:00.177 [info] update#setState checking for updates
+2023-03-30 21:26:01.174 [info] update#setState downloading
+2023-03-30 21:26:48.965 [info] [UtilityProcess id: 1, type: extensionHost, pid: 13720]: received exit event with code 0
+2023-03-30 21:26:48.966 [info] Extension host with pid 13720 exited with code: 0, signal: unknown.
+2023-03-30 21:26:49.787 [info] [UtilityProcess id: 2, type: extensionHost, pid: <none>]: creating new...
+2023-03-30 21:26:49.792 [info] [UtilityProcess id: 2, type: extensionHost, pid: 13763]: successfully created
+2023-03-30 21:27:20.848 [info] [UtilityProcess id: 2, type: extensionHost, pid: 13763]: received exit event with code 0
+2023-03-30 21:27:20.849 [info] Extension host with pid 13763 exited with code: 0, signal: unknown.
+2023-03-30 21:27:29.212 [info] [UtilityProcess id: 3, type: extensionHost, pid: <none>]: creating new...
+2023-03-30 21:27:29.215 [info] [UtilityProcess id: 3, type: extensionHost, pid: 13885]: successfully created
+2023-03-30 21:27:32.456 [info] [UtilityProcess id: 3, type: extensionHost, pid: 13885]: received exit event with code 0
+2023-03-30 21:27:32.457 [info] Extension host with pid 13885 exited with code: 0, signal: unknown.
+2023-03-30 21:27:35.202 [info] [UtilityProcess id: 4, type: extensionHost, pid: <none>]: creating new...
+2023-03-30 21:27:35.207 [info] [UtilityProcess id: 4, type: extensionHost, pid: 13889]: successfully created
+2023-03-30 21:28:39.616 [info] update#setState ready
+2023-03-30 21:34:55.350 [info] [UtilityProcess id: 4, type: extensionHost, pid: 13889]: waiting to exit...
+2023-03-30 21:34:55.681 [info] [UtilityProcess id: 4, type: extensionHost, pid: 13889]: received exit event with code 0
+2023-03-30 21:34:55.704 [info] Extension host with pid 13889 exited with code: 0, signal: unknown.
