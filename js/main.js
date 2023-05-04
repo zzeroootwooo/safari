@@ -27,4 +27,8 @@ $(function () {
       },
     });
   });
+
+  $(".menu__btn").on("click", () => {
+    $(".menu__list").toggleClass("menu__list-active");
+  });
 });

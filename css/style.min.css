@@ -548,11 +548,11 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #fff;
   font-size: 14px;
   line-height: 130%;
   max-width: 830px;
   margin: 0 auto;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .footer__info {
@@ -562,35 +562,114 @@ a {
 .footer__box-title {
   margin-bottom: 7px;
   font-weight: 500;
+  color: #fff;
 }
 
 .footer__copy {
   margin-bottom: 3px;
-  opacity: 0.8;
 }
 
 .footer__link {
   text-decoration: underline;
-  opacity: 0.8;
 }
 
 .footer__address {
   width: 165px;
 }
 
-.footer__address-text {
-  opacity: 0.8;
-}
-
 .footer__contacts {
   width: 210px;
 }
 
-.footer__phone {
-  opacity: 0.8;
+.footer__mail {
+  display: block;
 }
 
-.footer__mail {
-  opacity: 0.8;
-  display: block;
+.menu__btn {
+  display: none;
+}
+
+@media (max-width: 1140px) {
+  .direction__inner {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  .direction__img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .header__phone span {
+    display: none;
+  }
+}
+
+@media (max-width: 560px) {
+  .header__title {
+    font-size: 50px;
+  }
+  .menu__btn {
+    display: inline-block;
+    width: 40px;
+    height: 30px;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    right: 10px;
+    top: 107px;
+  }
+  .menu__btn span {
+    display: block;
+    height: 2px;
+    background-color: #fff;
+  }
+  .menu__btn::after, .menu__btn::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 2px;
+    background-color: #fff;
+  }
+  .menu__btn::before {
+    top: 0;
+  }
+  .menu__btn::after {
+    bottom: 0;
+  }
+  .menu__list {
+    -webkit-transform: translateY(-200%);
+            transform: translateY(-200%);
+    display: block;
+    background-color: #886239;
+    padding: 10px 0px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
+  }
+  .menu__list.menu__list-active {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+  .menu__link {
+    padding: 10px;
+    display: block;
+    text-align: center;
+  }
+  .logo {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .header__phone-num {
+    margin-left: 0;
+  }
+  .menu {
+    border: none;
+  }
 }
